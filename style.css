@@ -155,7 +155,23 @@ body {
   }
   
 
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  
+  
+  
+}
+
+@media screen and (max-width: 395px) {
+
+  .topnav {
+    display: block;
+    background: #FFFFFF;
+  }
+  
+
   .topnav a.icon {
     float: right;
     display: block;
