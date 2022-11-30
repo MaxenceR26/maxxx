@@ -88,15 +88,12 @@ body {
 /* .nav ul{
   background: #FFFFFF;
   height: 50px;
-
   box-shadow: 0px -8px 47px rgba(0, 0, 0, 0.4);
   display: flex;
   
   justify-content: space-around; 
   filter: drop-shadow(0px 0px 0px 0px black);
   align-items: center;
-
-
 .nav a{
   width: auto;
   font-family: 'Montserrat', sans-serif;
@@ -104,11 +101,9 @@ body {
   color: rgb(43, 43, 43);
   text-decoration: none;
 }
-
 .nav li {
   list-style: none;
 }
-
 .nav a:hover {
   color: rgb(150, 150, 150);
   transition: all 0.6s;
@@ -161,6 +156,9 @@ body {
     display: block;
   }
   
+  .split {
+    width: 100vh
+  }
   
   
 }
@@ -179,7 +177,9 @@ body {
     display: block;
   }
   
-  
+    .split {
+    width: 100vh
+  }
   
 }
 
