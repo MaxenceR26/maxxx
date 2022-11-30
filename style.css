@@ -29,9 +29,21 @@ body {
   font-family: 'Quicksand', sans-serif;;
   height: 100vh;
   /* border: 1px solid red; */
+
 }
 
-
+.texteee {
+  height: 50px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid blue; */
+  position: absolute;
+  top: 0;
+  width: calc(50vw - 1px);
+  border: 1px solid red;
+}
 
 .container-right{
   right: 0;
