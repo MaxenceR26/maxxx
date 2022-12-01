@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.left {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 50vw;
+    width: 50vw;
+    height: 100vh
+}
+.right {
+    position: absolute;
+    top: 0;
+    left:50vw;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    background-image: url('./web.jpg') no-repeat center #eee;
+    background-size: cover;
+    box-shadow: -5px 0px 42px -5px rgba(0, 0, 0, 0.4);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.right img {
+    width: 100%;
+    height: 100%
+}
+.icon {
+    display: none;
+    font-size: 1.5em;
+}
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.description {
+    height: calc(100vh - 10em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.description p {
+    margin-top:2em;
+    text-justify: auto;
+
+}
+h1 {
+    font-size: 3.5em;
+    font-weight: 600;
+    width: max-content;
+    margin: 0 auto;
+}
+.footer {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 1.5em;
+    left: 1.5em;
+}
+#firstElement {
+    transition: all 0.6s;
+}
+#secondElement {
+    transition: all 0.6s;
+}
+#thirdElement {
+    transition: all 0.6s;
+}
+#fourthElement {
+    transition: all 0.6s;
+}
+a {
+    text-decoration: none;
+    font-size: 1em;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(43, 43, 43);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(43, 43, 43);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(43, 43, 43);
+    transition: all 0.6s;
+} 
+
+/* selected link */
+a:active {
+    color: rgb(43, 43, 43);
+}
+
+@media screen and (max-width: 1200px) and (min-width: 395px) {
+    body{
+        width: 90vw;
+        height: 90vh;
+        overflow: hidden;        
+    }
+    .left {
+        width: 90vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden; 
+    }
+    .right {
+        display: none;
+    }
+    #firstElement {
+        transition: all 0.6s
+    }
+    #secondElement {
+        display: none;
+        transition: all 0.6s
+    }
+    #thirdElement {
+        display: none;
+        transition: all 0.6s
+    }
+    #fourthElement {
+        display: none;
+        transition: all 0.6s
+    }
+    .icon {
+        display: block;
+        position: absolute;
+        top: 1em;
+        right: 1em;
+    }
+    .topnav {
+        position: absolute;
+        top: 1.5em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        justify-content: center;
+    }
+    .description p {
+        text-justify: auto;
+        margin-top: 1.5em;
+        margin-left: 1em;
+        margin-right: 1em;
+        display: flex;
+        justify-content: center;
+    }
+    .active {
+        transition: all 0.6s;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .left {
+        width: 90vw;
+        height: 90vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .right {
+        display: none;
+    }
+    #firstElement {
+        transition: all 0.6s
+    }
+    #secondElement {
+        display: none;
+        transition: all 0.6s
+    }
+    #thirdElement {
+        display: none;
+        transition: all 0.6s
+    }
+    #fourthElement {
+        display: none;
+        transition: all 0.6s
+    }
+    .icon {
+        display: block;
+        position: absolute;
+        top: 1em;
+        right: 1em;
+    }
+    .topnav {
+        position: absolute;
+        top: 1.5em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        justify-content: center;
+    }
+    .description p {
+        text-justify: auto;
+        margin-top: 1.5em;
+        margin-left: 1em;
+        margin-right: 1em;
+        display: flex;
+        justify-content: center;
+    }
+    .active {
+        transition: all 0.6s;
+        font-size: 1.5em;
+    }
+}
