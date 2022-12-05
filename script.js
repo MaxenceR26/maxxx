@@ -17,7 +17,7 @@ function myFunction() {
     } else {
         if (numero == 1)  {
             firstElement.style.display = 'block';
-            navbar.style.marginTop = "0px";
+            navbar.style.marginTop = "-30px";
             secondElement.style.display = 'none';
             thirdElement.style.display = 'none';
             fourthElement.style.display = 'none';
