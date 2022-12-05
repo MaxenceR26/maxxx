@@ -45,6 +45,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    height: 50px;
 }
 .description {
     height: calc(100vh - 10em);
