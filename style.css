@@ -159,7 +159,7 @@ a:active {
         top: 1.5em;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        margin: 20px;
         justify-content: center;
     }
     .description {
@@ -220,7 +220,7 @@ a:active {
         top: 1.5em;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        margin: 20px;
         justify-content: center;
     }
     .description {
