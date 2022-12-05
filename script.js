@@ -49,7 +49,7 @@ function myFunction() {
 
 firstElement.addEventListener('click', function() {
     firstElement.style.fontSize = '1.5em';
-    navbar.style.marginTop = "60px";
+    navbar.style.marginTop = "80px";
     secondElement.style.fontSize = '1em';
     thirdElement.style.fontSize = '1em';
     fourthElement.style.fontSize = '1em';
@@ -81,7 +81,7 @@ fourthElement.addEventListener('click', function() {
 }, false);    
 firstElement.addEventListener('mouseenter', (event) => {
     firstElement.style.fontSize = '1.5em';
-    navbar.style.marginTop = "60px";
+    navbar.style.marginTop = "80px";
     secondElement.style.fontSize = '1em';
     thirdElement.style.fontSize = '1em';
     fourthElement.style.fontSize = '1em';
