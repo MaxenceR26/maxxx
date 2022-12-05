@@ -17,28 +17,28 @@ function myFunction() {
     } else {
         if (numero == 1)  {
             firstElement.style.display = 'block';
-            navbar.style.marginTop = "15px";
+//             navbar.style.marginTop = "15px";
             secondElement.style.display = 'none';
             thirdElement.style.display = 'none';
             fourthElement.style.display = 'none';
         }
         if (numero == 2)  {
             firstElement.style.display = 'none';
-            navbar.style.marginTop = "15px";
+//             navbar.style.marginTop = "15px";
             secondElement.style.display = 'block';
             thirdElement.style.display = 'none';
             fourthElement.style.display = 'none';
         }
         if (numero == 3)  {
             firstElement.style.display = 'none';
-            navbar.style.marginTop = "15px";
+//             navbar.style.marginTop = "15px";
             secondElement.style.display = 'none';
             thirdElement.style.display = 'block';
             fourthElement.style.display = 'none';
         }
         if (numero == 4)  {
             firstElement.style.display = 'none';
-            navbar.style.marginTop = "15px";
+//             navbar.style.marginTop = "15px";
             secondElement.style.display = 'none';
             thirdElement.style.display = 'none';
             fourthElement.style.display = 'block';
@@ -46,10 +46,6 @@ function myFunction() {
         myBool = false;
     }
 }
-
-document.getElementById('iconMenu').addEventListener('click' function() {
-    document.getElementById('iconMenu').style.marginTop = "80px";
-}, false);
 
 firstElement.addEventListener('click', function() {
     firstElement.style.fontSize = '1.5em';
