@@ -3,7 +3,7 @@ var firstElement = document.getElementById("firstElement");
 var secondElement = document.getElementById("secondElement");
 var thirdElement = document.getElementById("thirdElement");
 var fourthElement = document.getElementById("fourthElement");
-var navbar = document.getElementById("myTopNav");
+var navbar = document.getElementById("myTopnav");
 var numero = 1; 
 var myBool = false;
 
