@@ -165,7 +165,8 @@ a:active {
     .description {
         display: flex;
         flex-direction: column;
-        width: 90vw;
+        width: 100vw;
+        margin: 0 auto;
         justify-content: center;
     }
     .description p {
@@ -175,6 +176,10 @@ a:active {
         margin-right: 1em;
         display: flex;
         justify-content: center;
+    }
+    
+    h1 {
+     font-size: 2.5em;   
     }
     
     a {
@@ -231,7 +236,8 @@ a:active {
     .description {
         display: flex;
         flex-direction: column;
-        width: 90vw;
+        width: 100vw;
+        margin: 0 auto;
         justify-content: center;
     }
     .description p {
@@ -241,6 +247,10 @@ a:active {
         margin-right: 1em;
         display: flex;
         justify-content: center;
+    }
+    
+    h1 {
+     font-size: 2.5em;   
     }
     
     a {
