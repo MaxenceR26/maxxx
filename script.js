@@ -69,6 +69,7 @@ thirdElement.addEventListener('click', function() {
     thirdElement.style.fontSize = '1.5em';
     fourthElement.style.fontSize = '1em';
     numero = 3;
+    console.log("d")
 }, false);
 
 fourthElement.addEventListener('click', function() {
@@ -77,6 +78,7 @@ fourthElement.addEventListener('click', function() {
     thirdElement.style.fontSize = '1em';
     fourthElement.style.fontSize = '1.5em';
     numero = 4;
+    console.log("d")
 }, false);    
 firstElement.addEventListener('mouseenter', (event) => {
     firstElement.style.fontSize = '1.5em';
