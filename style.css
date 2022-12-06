@@ -122,8 +122,8 @@ a:active {
         overflow: hidden;        
     }
     .left {
-        width: 100vw;
-        height: 100vh;
+        width: 90vw;
+        height: 90vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -151,10 +151,12 @@ a:active {
     .icon {
         display: block;
         position: absolute;
+        top: 2em;
         right: 1em;
     }
     .topnav {
         margin: 0 auto;
+		margin-top: 45px;
 		width: 100vw;
         top: 1.5em;
         display: flex;
@@ -193,8 +195,8 @@ a:active {
 
 @media screen and (max-width: 395px) {
     .left {
-        width: 100vw;
-        height: 100vh;
+        width: 90vw;
+        height: 90vh;
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -221,7 +223,7 @@ a:active {
     .icon {
         display: block;
         position: absolute;
-
+        top: 2em;
         right: 1em;
     }
     .topnav {
@@ -230,7 +232,7 @@ a:active {
         top: 1.5em;
         display: flex;
         flex-direction: column;
-        
+        margin-top: 45px;
         justify-content: center;
     }
     .description {
