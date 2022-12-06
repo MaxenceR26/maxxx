@@ -118,8 +118,8 @@ a:active {
 @media screen and (max-width: 1200px) and (min-width: 395px) {
 
     .left {
-        width: calc(100vw - 0.2vw);
-        height: 100vh;
+        width: calc(100vw - 0.8vw);
+        height: calc(100vh - 0.3vh);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -162,7 +162,10 @@ a:active {
     .description {
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        border: 1px solid red; 
+        width: 90vw; 
+        height: 90vw; 
+        margin-top: 15%;
         margin: 0 auto;
         justify-content: center;
     }
@@ -192,7 +195,7 @@ a:active {
 @media screen and (max-width: 395px) {
     .left {
         width: calc(100vw - 0.2vw);
-        height: 100vh;
+        height: calc(100vh - 1vh);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -233,14 +236,13 @@ a:active {
     }
 
 
-    div.description {
-        height: 50px;
-        width: 10px;
-    }
-
     .description {
         display: flex;
         flex-direction: column;
+        border: 1px solid red; 
+        width: 90vw; 
+        height: 90vw; 
+        margin-top: 15%;
         width: 100vw;
         margin: 0 auto;
         justify-content: center;
