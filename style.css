@@ -151,12 +151,12 @@ a:active {
     .icon {
         display: block;
         position: absolute;
-        top: 1em;
+        top: 2em;
         right: 1em;
     }
     .topnav {
         margin: 0 auto;
-		margin-top: 25px;
+		margin-top: 45px;
 		width: 100vw;
         top: 1.5em;
         display: flex;
@@ -223,7 +223,7 @@ a:active {
     .icon {
         display: block;
         position: absolute;
-        top: 1em;
+        top: 2em;
         right: 1em;
     }
     .topnav {
@@ -232,7 +232,7 @@ a:active {
         top: 1.5em;
         display: flex;
         flex-direction: column;
-        margin-top: 25px;
+        margin-top: 45px;
         justify-content: center;
     }
     .description {
