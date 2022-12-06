@@ -163,10 +163,10 @@ a:active {
         display: flex;
         flex-direction: column;
         border: 1px solid red; 
-        width: 90vw; 
+
         height: 90vw; 
         margin-top: 15%;
-        margin: 0 auto;
+
         justify-content: center;
     }
     .description p {
@@ -243,8 +243,8 @@ a:active {
         width: 90vw; 
         height: 90vw; 
         margin-top: 15%;
-        width: 100vw;
-        margin: 0 auto;
+
+
         justify-content: center;
     }
     .description p {
